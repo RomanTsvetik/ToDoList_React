@@ -5,9 +5,69 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('../public/img/bg-img.jpg');
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-style: italic;
+    color: #a1d415;
+}
+
+input,
+button {
+    background-color: transparent;
+    border: 2px solid rgba(199, 230, 117, 0.562);
+    color: white;
+}
+
+input, 
+.todoCheckBox,
+.form-control, 
+.form-check-input,
+.delete-btn {
+    background-color: rgba(88, 86, 86, 0.452);
+    border: 2px solid grey;
+    color: white;
+}
+
+input::placeholder {
+    color: #a1d415;    
+}
+
+button{
+    max-width: 30%;
+    text-transform: uppercase;
+        font-weight: bold;
+}
+
+button:hover {
+    background-color: #a1d415;
+    color: black;
+}
+
+.filterButton {
+    max-width: 30%;
+}
+
+.todoForm,
+.filters {
+    padding: 0 15px;
+}
+
